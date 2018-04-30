@@ -1,0 +1,237 @@
+.images1,.images2,.images3{
+  background-repeat: no-repeat;
+  height: 270px;
+  background-size: cover;
+}
+
+/*CSS FOR IMAGES GALLERY AT PAGE ONE*/
+.foo{
+  height:270px;
+}
+
+
+
+/*PAGE TWO CSS*/
+.btnPage{
+  padding:20px;
+  color:orange;
+  background-color: white;
+}
+
+.btnPage:hover{
+  background-color: orange;
+  color: white;
+  transform: rotate(360deg);
+  transition: 1s ease;
+}
+.btnPage img{
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+.logo{
+  background-image: url("../assets/backgrounds/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 730px;
+  padding-top: 150px;
+  margin: 0;
+}
+.logo{
+  text-align: center;
+}
+
+.grey{
+  background-color: white;
+  font-size: 24px;
+  text-align: center;
+  height: 135px;
+}
+
+.orange{
+  background-color: #f15a29;
+  font-size: 24px;
+  text-align: center;
+  height: 135px;
+}
+
+.images1{
+  background-image: url("../assets/foodtop/breakfast.jpg");
+  color: #ffffff;
+}
+.images2{
+  background-image: url("../assets/foodtop/lunch.jpg");
+  color: #ffffff;
+  opacity:.6;
+}
+.images3{
+  background-image: url("../assets/foodtop/dinner.jpg");
+  color: #ffffff;
+
+}
+
+
+.images1:hover , .images3:hover{
+    opacity:.7;
+}
+img#driink,.driink{
+  width:50%
+}
+.row2{
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+  opacity: .9;
+}
+#menu{
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+#land{
+  background-color: #CACFD2;
+  color: #535252;
+  border-right: #F0F3F4;
+}
+#land:hover{
+  opacity: 0.5;
+  color: #F15A29;
+}
+#choosy{
+  background-color: white
+  color: #F15A29
+}
+#choosy{
+  color: #F15A29;
+  background-color:#E1E1E1;
+  border-right: #F0F3F4 outset
+}
+#land , #choosy{
+  padding: 22px;
+  font-weight: bold;
+}
+
+span{
+  font-weight: bold;
+  color: #F15A29;
+}
+.row2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.custom{
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  box-shadow: 0.2px 2px 2px 2px grey;
+}
+.care{
+  text-align: center;
+}
+.customer{
+  border-left: 2px grey;
+}
+#service{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.abt{
+  padding-top: 20px;
+  text-align: center;
+}
+.subscribe{
+	background-image: url("../assets/backgrounds/subscribe.jpg");
+	height: 550px;
+	color: white;
+	padding-top: 180px;
+	clear: both;
+}
+
+.subscribeChimp{
+	background-color:#F15A29 ;
+	color: white;
+	border-radius: 3.9px;
+	font-size: 16px;
+	text-align: center;
+	padding:15px;
+	width: 75%;
+}
+
+.subscribeChimp:hover{
+	color:#F15A29;
+	background-color: white;
+	transition: .5s;
+}
+
+#mce-EMAIL{
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	padding:15px;
+	width: 75%;
+	border-radius: 3.9px;
+	background-color: transparent;
+}
+
+
+#mce-EMAIL:hover{
+	background-color: white;
+	transition: .5s ease;
+	border-color: #F15A29;
+	border-style: double;
+}
+
+
+
+
+/*FOOTER PAGE*/
+
+ul li{
+	display: inline;
+	margin: 10px;
+}
+
+
+#top li img{
+	float: left;
+	text-align: center;
+	position: absolute;
+	margin-left: -104px;
+}
+
+#socialMedia{
+	list-style: none;
+	margin-left: -3%;
+
+}
+
+#mySpace{
+	padding-left: 30px;
+}
+
+
+
+
+.footer{
+	background-color: #F15A29;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.footer img{
+	margin-top: 40px;
+}
+
+.footer p{
+	padding-top: 10px;
+	margin-top: 20px;
+}
